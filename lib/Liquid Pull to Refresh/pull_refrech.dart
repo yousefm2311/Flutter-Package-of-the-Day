@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
 
-class LiquidPullRefrech extends StatelessWidget {
-  const LiquidPullRefrech({super.key});
+class LiquidPullRefresh extends StatelessWidget {
+  const LiquidPullRefresh({super.key});
 
   Future<void> handleRefrech() async {
     return await Future.delayed(const Duration(seconds: 2));
