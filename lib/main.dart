@@ -1,4 +1,5 @@
 import 'package:bottom_navi/Avatar%20Glow/avatar_glow.dart';
+import 'package:bottom_navi/Google%20Font/google_font.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:const Avatar_Glow(),
+      home:const GoogleFont(),
     );
   }
 }
